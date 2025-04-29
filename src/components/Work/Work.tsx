@@ -162,7 +162,7 @@ export default function PreviousWork() {
                 <div>
                     <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
                         2024 - Present. Check it out{' '}
-                        <Link href={'https://clippie.ai'} className="text-gray-300 no-underline">
+                        <Link href={'/works'} className="text-gray-300 no-underline">
                             here
                         </Link>
                         <br />
@@ -233,7 +233,7 @@ export default function PreviousWork() {
                 <div>
                     <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
                         2022 - 2024. Check it out{' '}
-                        <Link href={'https://clippie.ai'} className="text-gray-300 no-underline">
+                        <Link href={'/works'} className="text-gray-300 no-underline">
                             here
                         </Link>
                         <br />

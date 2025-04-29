@@ -3,11 +3,11 @@ import './style.scss'
 
 export const Heading = () => {
     return (
-        <div className='mt-[25%] md:mt-[10%] bodies'>
+        <div className='mt-[25%] md:mt-[10%] bodies text-center'>
 
 
 
-            <div className='dive'>
+            <div className='dive text-center'>
                 WORKS & PROJECTS
             </div>
 
