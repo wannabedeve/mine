@@ -125,9 +125,42 @@ const Footer = () => {
 
 
 
+    // useEffect(() => {
+    //     const handleFocus = (e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    //         const { value, id } = e.target;
+    //         if (value !== '') {
+    //             if (id === 'name') setNameFocused(true);
+    //             if (id === 'email') setEmailFocused(true);
+    //             if (id === 'msg') setMsgFocused(true);
+    //         } else {
+    //             if (id === 'name') setNameFocused(false);
+    //             if (id === 'email') setEmailFocused(false);
+    //             if (id === 'msg') setMsgFocused(false);
+    //         }
+    //     };
+
+    //     const inputs = document.querySelectorAll('input, textarea');
+    //     inputs.forEach((input) => {
+    //         input.addEventListener('blur', handleFocus);
+    //     });
+
+    //     return () => {
+    //         inputs.forEach((input) => {
+    //             input.removeEventListener('blur', handleFocus);
+    //         });
+    //     };
+    // }, []);
+
+
+
+
+
+
     useEffect(() => {
-        const handleFocus = (e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-            const { value, id } = e.target;
+        function handleFocus(e: Event) {
+            const target = e.target as HTMLInputElement | HTMLTextAreaElement;
+            const { value, id } = target;
+
             if (value !== '') {
                 if (id === 'name') setNameFocused(true);
                 if (id === 'email') setEmailFocused(true);
@@ -137,7 +170,7 @@ const Footer = () => {
                 if (id === 'email') setEmailFocused(false);
                 if (id === 'msg') setMsgFocused(false);
             }
-        };
+        }
 
         const inputs = document.querySelectorAll('input, textarea');
         inputs.forEach((input) => {
