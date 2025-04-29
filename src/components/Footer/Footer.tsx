@@ -253,7 +253,70 @@ const Footer = () => {
                 LinkedIn: https://www.linkedin.com/in/khaled-al-kharashi-10653b247/
             </div>
 
+            <div id='downloads' className='glass mt-[5%]'>
+                {/* <div className="subtitle text-xl my-[5%] w-fit mx-auto">Web Developer
+                                        <br /> & <br />
+                                        IoT Apps Developer</div> */}
+                <div className="text-xl">
+                    <h2>Download my resume as </h2>
+                    <br />
+                    <div className="animate-bounce md:mx-[50%] mx-[40%]">
+                        <svg
+                            className="w-10 h-10 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                    <br />
+                    <div className='btn'>
+                        <span className='link'>
 
+                            <a className="" href="/khaled-alkharashi-full-stack-web-developer-resume.pdf"
+                                download="khaled-alkharashi-full-stack-web-developer-resume.pdf"
+                                target="_blank">Web Developer</a>
+                        </span>
+                    </div>
+                    <br />
+                    <h2 className='ml-[2%]'>or as </h2>
+                    <br />
+                    <div className="animate-bounce md:mx-[50%] mx-[40%]">
+                        <svg
+                            className="w-10 h-10 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                    <div className='btn'>
+                        <span className='link'>
+
+                            <a className="" href="/khaled-alkharashi-iot-apps-developer-resume.pdf"
+                                download="khaled-alkharashi-iot-apps-developer-resume.pdf"
+                                target="_blank">IoT Developer</a>
+                        </span>
+                    </div>
+                </div>
+                <div className="social-iconsw">
+                    {/* <a href="#" className="fb">
+                                        <img src="/social/linkedin.webp" alt="" />
+                                    </a>
+                                    <a href="#" className="twitter">
+                                        <img src="/social/wtsapp.webp" alt="" />
+                                    </a>
+                                    <a href="#" className="insta">
+                                        <img src="/social/gmail.webp" alt="" />
+                                    </a> */}
+                </div>
+            </div>
 
         </section>
     );

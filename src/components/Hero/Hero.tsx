@@ -45,7 +45,8 @@ export const Hero = () => {
                                         <div className='btn'>
                                             <span className='link'>
 
-                                                <a className="" href="./Khaled-IT-Education.pdf" download="Khaled-IT-Education.pdf"
+                                                <a className="" href="/khaled-alkharashi-full-stack-web-developer-resume.pdf"
+                                                    download="khaled-alkharashi-full-stack-web-developer-resume.pdf"
                                                     target="_blank">Web Developer</a>
                                             </span>
                                         </div>
@@ -67,7 +68,8 @@ export const Hero = () => {
                                         <div className='btn'>
                                             <span className='link'>
 
-                                                <a className="" href="./Khaled-IT-Education.pdf" download="Khaled-IT-Education.pdf"
+                                                <a className="" href="/khaled-alkharashi-iot-apps-developer-resume.pdf"
+                                                    download="khaled-alkharashi-iot-apps-developer-resume.pdf"
                                                     target="_blank">IoT Developer</a>
                                             </span>
                                         </div>

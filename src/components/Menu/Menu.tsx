@@ -253,14 +253,14 @@ export default function Menu() {
                             >
                                 <li>
 
-                                    <a className="" href="./Khaled-IT-Education.pdf"
-                                        download="Khaled-IT-Education.pdf"
+                                    <a className="" href="/khaled-alkharashi-full-stack-web-developer-resume.pdf"
+                                        download="khaled-alkharashi-full-stack-web-developer-resume"
                                         target="_blank">Web Resume</a>
                                 </li>
                                 <li>
 
-                                    <a className="" href="./Khaled-IT-Education.pdf"
-                                        download="Khaled-IT-Education.pdf"
+                                    <a className="" href="/khaled-alkharashi-iot-apps-developer-resume.pdf"
+                                        download="khaled-alkharashi-iot-apps-developer-resume"
                                         target="_blank">IoT Resume</a>
                                 </li>
                             </ul>

@@ -1,5 +1,5 @@
 import { BuildMomentum } from '@/components/feature/Feature';
-import SectionTitle from '@/components/Work/SectionTitle';
+// import SectionTitle from '@/components/Work/SectionTitle';
 import InteractiveIoT from '@/components/Works/InterActiveIoT/InterActive';
 import InteractiveIoTa from '@/components/Works/InterActiveIoTa/InterActive';
 import InteractiveNetowrk from '@/components/Works/InterActiveNetwork/InterActive';
@@ -8,14 +8,10 @@ import InteractiveWeba from '@/components/Works/InterActiveWeba/InterActive';
 import { Heading } from '@/components/WorksHead/Head';
 import React from 'react'
 import './style.css'
-import Head from 'next/head';
 
 const page = () => {
     return (
         <div className='all'>
-            <Head>
-                <link rel="icon" href="/icon.jpg" />
-            </Head>
 
             <div className='mb-[40%] md:mb-[20%] mt-[15rem]'>
 
