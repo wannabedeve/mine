@@ -5,17 +5,21 @@ import InteractiveIoTa from '@/components/Works/InterActiveIoTa/InterActive';
 import InteractiveNetowrk from '@/components/Works/InterActiveNetwork/InterActive';
 import InteractiveWeb from '@/components/Works/InterActiveWeb/InterActive';
 import InteractiveWeba from '@/components/Works/InterActiveWeba/InterActive';
-import { Head } from '@/components/WorksHead/Head';
+import { Heading } from '@/components/WorksHead/Head';
 import React from 'react'
 import './style.css'
+import Head from 'next/head';
 
 const page = () => {
     return (
         <div className='all'>
+            <Head>
+                <link rel="icon" href="/icon.jpg" />
+            </Head>
 
             <div className='mb-[40%] md:mb-[20%] mt-[15rem]'>
 
-                <Head />
+                <Heading />
                 <br />
                 <div className="animate-bounce md:mx-[50%] mx-[40%]">
                     <svg
