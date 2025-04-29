@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+
+.signt {
+    font-family: 'Cinzel Decorative';
+}
+
+.component1 {
+    font-family: 'Cinzel Decorative';
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.text1 {
+    font-family: 'Cinzel Decorative';
+
+    /* font-size: 4rem; */
+    letter-spacing: 5px;
+    color: white;
+    margin: 0px;
+}
+
+.reflect1 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    background: linear-gradient(white, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotateX(180deg);
+    margin-top: -15px;
+    opacity: 10%;
+}
+
+
+
+.sticky-h3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    /* color: gray; */
+    font-weight: 700;
+    padding: 1rem 2rem;
+    z-index: 50;
+    /* background-color: white; */
+}
+
+/* nav {
+    width: 100%;
+    background-color: #e41142;
+    color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 55;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a:link,
+    a:visited {
+        color: inherit;
+        padding: 1.5rem;
+    }
+} */
+
+
+.sticky-article {
+    display: flex;
+    /* padding: 2rem 4rem; */
+    /* padding-left: 22%; */
+
+    span {
+        /* font-size: 4rem; */
+        padding: .5rem;
+    }
+}
+
+.sticky-para {
+    /* width: 90%; */
+    font-size: 1.2rem;
+    text-align: center;
+    /* max-width: 768px; */
+}
+
+
+
+
+
+
+
+.about-titles {
+    margin-top: 10%;
+    text-align: left;
+
+    /* font-size: 2rem; */
+    color: #fff;
+    /* text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15); */
+}
+
+.about-para {
+    /* width: 100%; */
+    /* text-align: center; */
+    margin-left: 5%;
+    /* margin-right: -10; */
+    /* max-width: 60%; */
+}
+
+.highlight {
+    /* font-size: 2rem; */
+    color: goldenrod;
+}
+
+
+/* .myimg {
+    background-image: url('/social/khaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.glass {
+    background: rgba(255, 255, 255, .01);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    color: #fff;
+}

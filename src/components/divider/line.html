@@ -1,0 +1,37 @@
+<div class="divider">
+    <h3>Test</h3>
+</div>
+.divider {
+text-align: center;
+width: 100%;
+height: auto;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+display: inline-block;
+margin: 0 15px;
+vertical-align: middle;
+width: auto;
+height: 4px;
+border-bottom: solid 2px transparent;
+border-top: solid 2px transparent;
+}
+
+.divider:before {
+border-right: solid 400px black;
+}
+
+.divider:after {
+border-left: solid 400px black;
+}
+
+.divider h3 {
+display: inline;
+font: 24px Arial, sans-serif;
+text-transform: uppercase;
+line-height: .75;
+vertical-align: top;
+color: black;
+}

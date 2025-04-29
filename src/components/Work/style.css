@@ -1,0 +1,17 @@
+.text1 {
+    font-family: 'Cinzel Decorative';
+
+    font-size: 4rem;
+    letter-spacing: 5px;
+    /* color: white; */
+    margin: 0px;
+    padding: 1rem 2rem;
+
+}
+
+
+.chip {
+    border: 1px solid white;
+    padding: 1%;
+    background-color: slategray;
+}
