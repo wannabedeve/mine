@@ -45,8 +45,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 <SectionTitle title="Work" progressBgClass="bg-primary"></SectionTitle>
                 <SectionTitle title="Experience" progressBgClass="bg-primary"></SectionTitle>
             </div>
-
-            <div ref={ref} className="relative mx-auto max-w-7xl pb-20">
+            t            <div ref={ref} className="relative mx-auto max-w-7xl pb-20">
                 {data.map((item, index) => (
                     <div key={index} className="flex justify-start pt-10 md:gap-10 md:pt-40">
                         <div className="sticky top-40 z-40 flex max-w-xs flex-col items-center self-start md:w-full md:flex-row lg:max-w-sm">

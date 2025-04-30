@@ -1,15 +1,40 @@
+'use client'
 import { Arrow } from "@/components/Arrow/Arrow";
 import { BuildMomentum } from "@/components/feature/Feature";
-import Gallery from "@/components/Gallery/Gallery";
+// import Gallery from "@/components/Gallery/Gallery";
 import Heroz from "@/components/Heroz/Heroz";
 import Projects from "@/components/Projects/Projects";
-import SmoothScrollProvider from "@/components/SmoothScrollProvider";
+// import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 import Trial from "@/components/Tests/Trial";
 import Trial2 from "@/components/Trial2/Trial2";
 import Work from "@/components/Work/Work";
-import Image from "next/image";
+import Lenis from "lenis";
+import { useEffect, useRef } from "react";
+// import Image from "next/image";
 
 export default function Home() {
+
+
+  const lenisRef = useRef<Lenis | null>(null);
+
+  useEffect(() => {
+    const lenis = new Lenis();
+    lenisRef.current = lenis;
+
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    return () => {
+      lenis.destroy();
+      lenisRef.current = null;
+    };
+  }, []);
+
+
   return (
     <div>
       <div className='bg-[url("/slide/bg16.avif")] bg-contain bg-center'>
