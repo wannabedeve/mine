@@ -1,10 +1,9 @@
 'use client';
 
-import { useMotionValueEvent, useScroll, useTransform, motion } from 'framer-motion';
+import { useScroll, useTransform, motion } from 'framer-motion';
 import React, { useEffect, useRef, useState } from 'react';
 import SectionTitle from './SectionTitle';
 import './style.css'
-import { BuildMomentum } from '../feature/Feature';
 
 interface TimelineEntry {
     title: string;
@@ -33,26 +32,19 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
     return (
         <div className="w-full mt-[15%] font-sans md:px-10" ref={containerRef}>
-            {/* <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:px-10">
-                <h2 className="mb-4 max-w-4xl text-lg font-semibold text-white md:text-4xl xl:text-6xl">
-                    Check out my previous work
-                </h2>
-                <p className="max-w-sm text-sm text-neutral-300 md:text-base">
-                    I have been working on a lot of projects/compannies over the years. Here are some of the highlights.
-                </p>
-            </div> */}
-            <div className="text1 text-center">
+
+            <div className="text-wo text-center text-2xl">
                 <SectionTitle title="Work" progressBgClass="bg-primary"></SectionTitle>
                 <SectionTitle title="Experience" progressBgClass="bg-primary"></SectionTitle>
             </div>
-            t            <div ref={ref} className="relative mx-auto max-w-7xl pb-20">
+            <div ref={ref} className="relative mx-auto max-w-7xl pb-20">
                 {data.map((item, index) => (
                     <div key={index} className="flex justify-start pt-10 md:gap-10 md:pt-40">
                         <div className="sticky top-40 z-40 flex max-w-xs flex-col items-center self-start md:w-full md:flex-row lg:max-w-sm">
                             <div className="absolute left-3 flex h-10 w-10 items-center justify-center rounded-full bg-white md:left-3">
-                                <div className="h-4 w-4 rounded-full border-4 border-neutral-300 bg-neutral-400 p-2" />
+                                <div className="h-4 w-4 rounded-full border-4 border-green-400 bg-orange-300 p-2" />
                             </div>
-                            <h3 className="hidden text-xl font-bold text-neutral-300 md:block md:pl-20 md:text-5xl">{item.title}</h3>
+                            <h3 className="hidden text-xl font-bold text-slate-600 md:block md:pl-20 md:text-5xl">{item.title}</h3>
                         </div>
 
                         <div className="relative w-full pl-20 pr-4 md:pl-4">
@@ -72,7 +64,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                             height: heightTransform,
                             opacity: opacityTransform,
                         }}
-                        className="absolute inset-x-0 top-0 w-[2px] rounded-full bg-gradient-to-t from-purple-500 from-[0%] via-blue-500 via-[10%] to-transparent"
+                        className="absolute inset-x-0 top-0 w-[2px] rounded-full bg-gradient-to-t from-orange-400 from-[0%] via-green-600 via-[10%] to-transparent"
                     />
                 </div>
             </div>

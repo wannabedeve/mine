@@ -160,15 +160,20 @@ export default function PreviousWork() {
             title: 'Tax Consultancy',
             content: (
                 <div>
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
+                        <span className="text-slate-600 text-xl font-semibold">
+                            Full Stack Developer
+                        </span>
+                        <br />
+                        <br />
                         2024 - Present. Check it out{' '}
-                        <Link href={'/works'} className="text-gray-300 no-underline">
-                            here
+                        <Link href={'/works'} className="text-green-700 font-extrabold no-underline">
+                            Click here to visit
                         </Link>
                         <br />
                         United Arab Emirates - Dubai
                     </p>
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
                         Working on Services Digitalization by building apps and web based services.
                         <br />
                         Developed responsive, SEO-optimized web applications.
@@ -183,6 +188,13 @@ export default function PreviousWork() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
+                            src="/slide/java.png"
+                            alt="startup template"
+                            width={500}
+                            height={500}
+                            className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <Image
                             src="/slide/mern.png"
                             alt="startup template"
                             width={500}
@@ -196,23 +208,10 @@ export default function PreviousWork() {
                             height={500}
                             className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        {/* <Image
-                            src="/previous-work/clippie-3.png"
-                            alt="startup template"
-                            width={500}
-                            height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-                        />
-                        <Image
-                            src="/previous-work/clippie-4.png"
-                            alt="startup template"
-                            width={500}
-                            height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-                        /> */}
+
                     </div>
                     <br />
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
                         Projects:
                         <br />
                         <br />
@@ -231,15 +230,20 @@ export default function PreviousWork() {
             title: 'Egypt Telecom, Xceed',
             content: (
                 <div>
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
+                        <span className="text-slate-600 text-xl font-semibold">
+                            Network Support Engineer
+                        </span>
+                        <br />
+                        <br />
                         2022 - 2024. Check it out{' '}
-                        <Link href={'/works'} className="text-gray-300 no-underline">
-                            here
+                        <Link href={'/works'} className="text-green-700 font-extrabold no-underline">
+                            Click here to visit
                         </Link>
                         <br />
                         Egypt, Alexandria, Smart village
                     </p>
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
                         Certified from Xceed Company - Information System Provider
                         with Egypt Telecom ( WE ) Internet Service Provider.
                     </p>
@@ -258,23 +262,10 @@ export default function PreviousWork() {
                             height={500}
                             className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        {/* <Image
-                        src="/previous-work/clippie-3.png"
-                        alt="startup template"
-                        width={500}
-                        height={500}
-                        className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-                    />
-                    <Image
-                        src="/previous-work/clippie-4.png"
-                        alt="startup template"
-                        width={500}
-                        height={500}
-                        className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-                    /> */}
+
                     </div>
                     <br />
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
                         Network Administration:
 
                         <br />
@@ -320,15 +311,20 @@ export default function PreviousWork() {
             title: 'ITI, IoT',
             content: (
                 <div>
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
+                        <span className="text-slate-600 text-xl font-semibold">
+                            IoT Apps Developer / Web Developer
+                        </span>ai
+                        <br />
+                        <br />
                         2020 - 2022. Check it out{' '}
-                        <Link href={'https://clippie.ai'} className="text-gray-300 no-underline">
-                            here
+                        <Link href={'/works'} className="text-green-700 font-extrabold no-underline">
+                            Click here to visit
                         </Link>
                         <br />
                         Egypt, Mansoura Univirsity
                     </p>
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
                         Build, Automate Internet Of Things Applications By Enablement Platforms,
                         and IoT Kits & Connection/Technologies.
                         <br />
@@ -349,23 +345,10 @@ export default function PreviousWork() {
                             height={500}
                             className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        {/* <Image
-                        src="/previous-work/clippie-3.png"
-                        alt="startup template"
-                        width={500}
-                        height={500}
-                        className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-                    />
-                    <Image
-                        src="/previous-work/clippie-4.png"
-                        alt="startup template"
-                        width={500}
-                        height={500}
-                        className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-                    /> */}
+
                     </div>
                     <br />
-                    <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
                         IoT Enablement Platforms:
                         <br />
                         Industial Google Cloud IoT Core:
@@ -404,6 +387,66 @@ export default function PreviousWork() {
                         -Python for backend ( event handling - load balancing ) - with mysql database.
                         <br />
                         - Javascrtipt for client interface (broswer UI / mobile interface).
+
+                    </p>
+                </div>
+            ),
+        },
+
+        {
+            title: 'Al-Araby Group',
+            content: (
+                <div>
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
+                        <span className="text-slate-600 text-xl font-semibold">
+                            Electronics Technician
+                        </span>
+                        <br />
+                        <br />
+                        2016 - 2020. Check it out{' '}
+                        <Link href={'/works'} className="text-green-700 font-extrabold no-underline">
+                            Click here to visit
+                        </Link>
+                        <br />
+                        Alexandria
+                    </p>
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
+                        Worked with Al-Araby - Authorized Centers (DC Devices Maintainance).
+
+                    </p>
+                    <div className="grid grid-cols-2 gap-4">
+                        <Image
+                            src="/slide/elec.webp"
+                            alt="startup template"
+                            width={500}
+                            height={500}
+                            className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <Image
+                            src="/slide/avo.jpg"
+                            alt="startup template"
+                            width={500}
+                            height={500}
+                            className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+
+                    </div>
+                    <br />
+                    <p className="mb-8 text-xs font-normal exp-work md:text-sm">
+                        - Dealing with Analog/Digital Circuits AC/DC, tracking/indicate faults and Maintenance.
+
+                        <br />
+                        <br />
+                        - Measurement and Soldering Electronics Components Pinned / SMD.
+
+                        <br />
+                        <br />
+                        - Switch mode power supply SMPS - LCD/LED Screens and CRT TV, Signal reciever, Protection.
+
+                        <br />
+                        <br />
+                        - Sound devices Repairing PC and Laptop in Hardware and Software.
+
 
                     </p>
                 </div>

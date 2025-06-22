@@ -20,7 +20,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-size: 10vw;
+    font-size: 6vw;
+    letter-spacing: 1rem;
     font-family: "Source Sans Pro", sans-serif;
     animation: reveal 3000ms ease-in-out forwards 200ms,
         glow 2500ms linear infinite 2000ms;

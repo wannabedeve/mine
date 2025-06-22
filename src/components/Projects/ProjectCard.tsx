@@ -24,7 +24,7 @@ const Project = ({ name, image, category, techstack, links }: project) => {
             variants={cardVariants}
             initial='hidden'
             animate={inView ? 'visible' : 'hidden'}
-            className="flex flex-col gap-2 bg-gray-400 dark:bg-grey-800 rounded-lg p-4 overflow-x-hidden">
+            className="flex flex-col gap-2 bg-[#90EE90] rounded-lg p-4 overflow-x-hidden">
 
             <div className="relative group rounded-lg bg-violet-50">
                 <Image alt={name} width={1000} height={1000} className="max-w-full h-48 max-h-full object-cover object-top rounded-lg" src={image} />

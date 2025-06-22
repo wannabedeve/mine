@@ -5,7 +5,7 @@ import { Features } from "./features";
 
 export const BuildMomentum = () => {
     return (
-        <Features color="40,87,255" colorDark="48,58,117">
+        <Features color="169, 169, 169" colorDark="169, 169, 169">
             {/* <Features.Main
                 title={
                     <>

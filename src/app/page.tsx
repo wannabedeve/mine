@@ -1,16 +1,17 @@
 'use client'
+
 import { Arrow } from "@/components/Arrow/Arrow";
 import { BuildMomentum } from "@/components/feature/Feature";
-// import Gallery from "@/components/Gallery/Gallery";
 import Heroz from "@/components/Heroz/Heroz";
+import { Profile } from "@/components/Profile/Profile";
+// import Hero from "@/components/Hero/Hero";
+// import { Profile } from "@/components/Profile/Profile";
 import Projects from "@/components/Projects/Projects";
-// import SmoothScrollProvider from "@/components/SmoothScrollProvider";
-import Trial from "@/components/Tests/Trial";
-import Trial2 from "@/components/Trial2/Trial2";
+import { Section } from "@/components/Sections/Section";
+// import { Section } from "@/components/Sections/Section";
 import Work from "@/components/Work/Work";
 import Lenis from "lenis";
 import { useEffect, useRef } from "react";
-// import Image from "next/image";
 
 export default function Home() {
 
@@ -37,36 +38,34 @@ export default function Home() {
 
   return (
     <div>
-      <div className='bg-[url("/slide/bg16.avif")] bg-contain bg-center'>
-        {/* <SmoothScrollProvider> */}
+      <div className=''>
         <Heroz />
-        {/* </SmoothScrollProvider> */}
-
-        <Trial />
-        {/* <BuildMomentum /> */}
-        <div className='-mt-[3rem] -mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
+        <div className='-mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
           <BuildMomentum />
         </div>
 
         <Arrow />
-        <div className='-mt-[3rem] -mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
+        <div className='-mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
+          <BuildMomentum />
+        </div>
+        <Profile />
+        <div className='-mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
           <BuildMomentum />
         </div>
 
-        <Trial2 />
-        {/* <BuildMomentum /> */}
-        <div className='-mt-[3rem] -mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
+        <Section />
+        <div className='-mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
           <BuildMomentum />
         </div>
+
 
         <Work />
-        {/* <Gallery /> */}
-        <div className='-mt-[3rem] -mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
+        <div className='-mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
           <BuildMomentum />
         </div>
 
         <Projects />
-        <div className='-mt-[3rem] -mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
+        <div className='-mb-[17rem] md:-mt-[2rem] md:-mb-[30rem]'>
           <BuildMomentum />
         </div>
 

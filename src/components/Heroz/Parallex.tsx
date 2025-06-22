@@ -40,55 +40,11 @@ export default function Parallex() {
 	}, []);
 
 	return (
-		<main className='-mt-[10%] bg-[url("/slide/bg16.avif")] bg-contain bg-center'>
-			{/* <div className="overlay">Overlay Text</div> */}
-
-			{/* <div className="h-screen w-full flex items-center justify-center">
-				<h1 className="text-[30px] uppercase font-bold">
-					scroll down for happiness
-				</h1>
-			</div> */}
+		// bg-[url("/slide/bg16.avif")] bg-contain bg-center
+		<main className='-mt-[10%]'>
 
 
 			<div className="mb-[10%]">
-				{/* <div className="container-about">
-					<div className="img-area">
-						<div className="inner-area">
-							<div className="component">
-								<div className="text">i-Stream</div>
-								<div className="reflect">i-Stream</div>
-							</div>
-						</div>
-					</div>
-					<div className="name">John Doe</div>
-					<div className="about">Manager</div>
-					<div className="social-icons">
-						<a href="#" className="fb"><i className="fab fa-facebook-f"></i></a>
-						<a href="#" className="twitter"><i className="fab fa-whatsapp"></i></a>
-						<a href="#" className="insta"><i className="fab fa-instagram"></i></a>
-					</div>
-					<div className="buttons">
-						<button>Chat</button>
-						<button>Follow me</button>
-					</div>
-					<div className="social-share">
-						<div className="row">
-							<i className="fa fa-heart"></i>
-							<span>30.4k </span>
-						</div>
-						<div className="row">
-							<i className="fa fa-comment"></i>
-							<span>54.2k</span>
-						</div>
-						<div className="row">
-							<i className="fa fa-share"></i>
-							<span>38.5k</span>
-						</div>
-					</div>
-				</div> */}
-
-
-				{/* <Background /> */}
 				<Hero />
 
 			</div>
@@ -115,29 +71,6 @@ export default function Parallex() {
 					y={y4}
 				/> */}
 			</div>
-			{/* <div className="bg-[#ededee] text-center">
-				<h1 className="about-titles">3D Text Effect</h1>
-				<p className="about-para">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem aut cumque obcaecati dolores nihil maxime temporibus laudantium quos saepe ab!
-				</p>
-
-				<h1 className="about-titles">3D Text Effect</h1>
-				<p className="about-para">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem aut cumque obcaecati dolores nihil maxime temporibus laudantium quos saepe ab!
-				</p>
-
-
-				<h1 className="about-titles">3D Text Effect</h1>
-				<p className="about-para">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem aut cumque obcaecati dolores nihil maxime temporibus laudantium quos saepe ab!
-				</p>
-
-
-				<h1 className="about-titles">3D Text Effect</h1>
-				<p className="about-para">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem aut cumque obcaecati dolores nihil maxime temporibus laudantium quos saepe ab!
-				</p>
-			</div> */}
 		</main>
 	);
 }

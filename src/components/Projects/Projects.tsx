@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import SectionWrapper from "./SectionWrapper";
 import ProjectCard from "./ProjectCard";
 import SectionTitle from "../Work/SectionTitle";
-import { BuildMomentum } from "../feature/Feature";
+import './style.css'
 
 interface Props {
     projectsData: project[]
@@ -123,18 +123,7 @@ export const mockProjects: project[] = [
             video: "https://youtu.be/ecommerce-demo"
         }
     },
-    {
-        name: "Library System",
-        image: "/slide/1.jpg",
-        category: "Web",
-        techstack: "Java, Spring-boot, MySQL",
-        links: {
-            visit: "/works",
-            // "https://ecommerce.example.com",
-            code: "https://github.com/username/ecommerce",
-            video: "https://youtu.be/ecommerce-demo"
-        }
-    },
+
     {
         name: "Blog Website",
         image: "/slide/3.jpeg",
@@ -152,6 +141,18 @@ export const mockProjects: project[] = [
         image: "/slide/1.webp",
         category: "Web",
         techstack: "MongoDB, RTK, Express, React, Node.js",
+        links: {
+            visit: "/works",
+            // "https://ecommerce.example.com",
+            code: "https://github.com/username/ecommerce",
+            video: "https://youtu.be/ecommerce-demo"
+        }
+    },
+    {
+        name: "Library System",
+        image: "/slide/1.jpg",
+        category: "Web",
+        techstack: "Java, Spring-boot, MySQL",
         links: {
             visit: "/works",
             // "https://ecommerce.example.com",
@@ -235,20 +236,19 @@ const Projects = () => {
     }, [])
 
     return (
-        <SectionWrapper id="projects" className="glass mx-4 md:mx-0 min-h-screen">
+        <SectionWrapper id="projects" className="glass mx-4 md:mx-0 md:mt-[10%] min-h-screen">
             {/* <h2 className="text-4xl text-center">Projects</h2> */}
-            <div className="text1 text-center">
-
+            <div className="text-p text-center text-2xl mb-[115%] md:mb-[5%]">
                 <SectionTitle title="Projects" progressBgClass="bg-primary"></SectionTitle>
                 <SectionTitle title="&" progressBgClass="bg-primary"></SectionTitle>
                 <SectionTitle title="Works" progressBgClass="bg-primary"></SectionTitle>
-
             </div>
 
             {/* bg-slate-600 dark:bg-grey-800 */}
-            <div className="overflow-x-auto bg-gray-600 scroll-hide md:w-full max-w-screen-sm mx-auto mt-6 flex justify-between items-center gap-2 md:gap-3 p-2 rounded-md">
+            <div className="overflow-x-auto bg-[#009E60] scroll-hide md:w-full max-w-screen-sm mx-auto mt-[40%] md:mt-6 flex justify-between items-center gap-2 md:gap-3 p-2 rounded-md">
                 {categories.map((c: string = "", i: number) => (
-                    <span key={i} onClick={() => filterProjects(c)} className={`p-1.5 md:p-2 w-full text-sm md:text-base text-center capitalize rounded-md ${category.toLowerCase() === c.toLowerCase() ? "bg-violet-600 text-white" : "hover:bg-orange-300 hover:dark:bg-grey-900"} cursor-pointer transition-all`}>
+                    <span key={i} onClick={() => filterProjects(c)} className={`p-1.5 md:p-2 font-bold w-full text-sm md:text-base text-center capitalize rounded-md ${category.toLowerCase() === c.toLowerCase() ?
+                        "bg-white/30 backdrop-blur-md border border-white/20 rounded-xl p-6 shadow-lg text-white" : "hover:bg-white/20 hover:dark:bg-grey-900"} cursor-pointer transition-all`}>
                         {c}
                     </span>
                 ))}

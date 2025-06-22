@@ -1,4 +1,16 @@
-.glass {
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .glass {
     background: rgba(255, 255, 255, .01);
     border-radius: 16px;
     backdrop-filter: blur(10px);
@@ -7,9 +19,14 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     color: #fff;
-}
+} */
 
 
-html {
-    scroll-behavior: smooth;
+
+
+
+.textw {
+    font-family: 'Cinzel Decorative';
+    text-align: center;
+    margin-bottom: 0px;
 }

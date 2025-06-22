@@ -2,6 +2,7 @@
 import { useRef } from "react";
 import RevealText from "./RevealText";
 
+
 const SectionTitle = ({
     title,
 }: {
@@ -13,7 +14,7 @@ const SectionTitle = ({
     // motion
     return (
         <div
-            className=" items-center text-[2rem] md:text-[5rem]  relative overflow-hidden tracking-tight "
+            className="items-center text-[8vw] text-black md:text-[3vw] relative overflow-hidden tracking-tight"
             ref={ref}
         >
             <RevealText word={title} animationType="whileInView" />

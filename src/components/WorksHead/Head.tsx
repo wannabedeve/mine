@@ -7,8 +7,8 @@ export const Heading = () => {
 
 
 
-            <div className='dive text-center'>
-                WORKS & PROJECTS
+            <div className='dive text-center textw'>
+                Works & Projects
             </div>
 
         </div>

@@ -14,6 +14,9 @@ const SectionWrapper = ({ children, id, className }: { children: ReactNode, id: 
         triggerOnce: true
     });
 
+
+
+
     return (
         <motion.section
             ref={ref}

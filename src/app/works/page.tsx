@@ -13,7 +13,7 @@ const page = () => {
     return (
         <div className='all'>
 
-            <div className='mb-[40%] md:mb-[20%] mt-[15rem]'>
+            <div className='mb-[40%] md:mb-[20%] mt-[15rem] bg-[#009E60]'>
 
                 <Heading />
                 <br />

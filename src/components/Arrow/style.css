@@ -3,3 +3,13 @@
     height: auto;
     display: block;
 }
+
+
+.texta {
+    font-family: 'Cinzel Decorative';
+    /* font-size: 5vw; */
+    letter-spacing: 5px;
+    text-align: center;
+    color: black;
+    margin: 0px;
+}

@@ -82,21 +82,22 @@ h1 {
 
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
 
-.component {
-    font-family: 'Cinzel Decorative';
+.componenth {
     text-align: center;
     margin-bottom: 0px;
 }
 
-.text {
-    font-size: 4rem;
+.texth {
+    /* font-size: 4rem; */
+    font-family: 'Cinzel Decorative';
+
     letter-spacing: 5px;
-    color: white;
+    color: black;
     margin: 0px;
 }
 
 .reflect {
-    font-size: 4rem;
+    /* font-size: 4rem; */
     letter-spacing: 5px;
     background: linear-gradient(white, black);
     -webkit-background-clip: text;
@@ -378,7 +379,7 @@ h1 {
     top: 0;
     height: 490%;
     width: 130%;
-    background: #78c7d2;
+    background: #009E60;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     /* -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
